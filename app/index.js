@@ -41,6 +41,7 @@ const checkPage = async ( url, locale ) => {
         page.on('load', () => console.log('Page loaded!'));
         page.on('error', (error) => console.log(error));
 
+        await page.setViewport({ width: 1200, height: 800 });
         await page.goto( url );
 
         await page.addScriptTag({ content: aXeCore.source });
