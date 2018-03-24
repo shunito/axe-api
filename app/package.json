@@ -1,0 +1,21 @@
+{
+  "name": "fastify-puppeteer",
+  "version": "1.0.0",
+  "description": "fastify puppeteer",
+  "repository": "fastify-puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shunsuke Ito",
+  "license": "MIT",
+  "dependencies": {
+    "axe-core": "^3.0.0",
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "fastify": "^1.1.1",
+    "fastify-formbody": "^2.0.0",
+    "fastify-static": "^0.8.0",
+    "puppeteer": "^1.2.0"
+  }
+}

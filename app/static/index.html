@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>aXe API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style>
+body { background-color: #EEE; }
+main { margin: 2rem; }
+input { padding: 0.5rem; width: 50%; }
+button { padding: 0.5rem; }
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    padding: 0.5rem 2rem 0.5rem 0.5rem; }
+</style>
+</head>
+
+<body>
+    <main>
+        <form action="/check" method="post">
+            <input type="url" name="url" placeholder="https://">
+            <select name="locale">
+                <option value="en">English</option>
+                <option value="jp">Japanese</option>
+                <option value="nl">Dutch</option>
+            </select>
+            <button type="submit" value="check">Check</button>
+        </form>
+    </main>
+</body>
+
+</html>
